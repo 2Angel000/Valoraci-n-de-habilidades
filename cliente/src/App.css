@@ -1,0 +1,9 @@
+@media print {
+  body {
+    overflow: hidden; /* Oculta el contenido fuera del área de impresión */
+  }
+  /* Opcional: Restablece el overflow para los elementos que deseas imprimir */
+  .print-only {
+    overflow: visible !important;
+  }
+}

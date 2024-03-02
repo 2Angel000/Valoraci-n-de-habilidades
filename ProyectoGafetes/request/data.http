@@ -1,0 +1,30 @@
+@api = http://localhost:3000/api
+
+###
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name":"Miguel",
+    "last_name":"Florencio",
+    "number":"7741225588",
+    "email":"mi2g@example.com"
+}
+
+
+###
+DELETE {{api}}/1
+
+###
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "name":"Angel",
+    "last_name":"Martinez",
+    "number":"7741225508",
+    "email":"mig1@example.com"
+}
